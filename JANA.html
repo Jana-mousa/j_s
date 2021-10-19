@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>photo</title>
+</head>
+<body>
+    <script>  name = window.prompt("enter your name ");
+        document.write("<H1 align=center> Welcome " +name + ".</H1>")
+       </script>
+    <img src="file:///C:/Users/Administrator/OneDrive/Pictures/cap.png" id="pictures" width="500"  height="200" alt="">
+    <button onclick="myImages()"> GENERATE </button>
+<script>
+    var pictures=["file:///C:/Users/Administrator/OneDrive/Desktop/p3.jpg",
+    "file:///C:/Users/Administrator/OneDrive/Desktop/p2.jpg",
+    "file:///C:/Users/Administrator/OneDrive/Desktop/p5.jpg",
+    "file:///C:/Users/Administrator/OneDrive/Desktop/p4.jpg",
+    "file:///C:/Users/Administrator/OneDrive/Pictures/program.jpg",
+    "file:///C:/Users/Administrator/OneDrive/Pictures/html.jpg"]
+
+
+    
+     function myImages(){
+    
+     document.getElementById("pictures").src= pictures[1];
+ 
+    }
+
+</script>
+
+</body>
+</html>
